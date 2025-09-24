@@ -1,4 +1,9 @@
-# CrawleeAwesome
+# Crawlee
+Crawlee for Python
+https://github.com/apify/crawlee-python
+Crawlee for JS/TS
+https://github.com/apify/crawlee
+
 从成熟度和功能完整性来看，Crawlee 的 JavaScript/TypeScript 版本（JS/TS）比 Python 版本更完善。JS/TS 版本作为 Crawlee 的原始实现，已积累超过 15k GitHub 星标，提供了完整的爬虫生态，包括 <code>CheerioCrawler</code>、<code>PuppeteerCrawler</code> 和 <code>PlaywrightCrawler</code> 三大核心类，支持 HTTP 请求、无头浏览器渲染、反检测机制（如代理轮换、浏览器指纹）以及自动扩展功能。其 API 设计稳定，文档丰富，且与 Node.js 生态无缝集成，可直接调用 Puppeteer 或 Playwright 进行复杂的浏览器自动化操作。
 
 相比之下，Python 版本目前处于「早期采用者」阶段，尽管在 GitHub 上发布后一周内就获得 3.1k 星标，但功能覆盖和社区支持仍在追赶中。虽然它继承了核心反阻塞能力（如默认配置下模拟人类行为避开检测），但工具链生态尚未完全成熟，例如文档示例和第三方库集成不如 JS/TS 版本全面。不过，Python 版本的优势在于依托 Python 在数据科学领域的流行度，适合熟悉该语言的开发者快速上手网络数据采集。
