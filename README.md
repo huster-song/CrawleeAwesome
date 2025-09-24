@@ -27,11 +27,21 @@ VS 2022的适用场景
 bash复制pipenv install crawlee camoufox 
 
 # 文章
-Crawlee-Python项目环境配置与安装指南
-https://blog.csdn.net/gitblog_00243/article/details/148490803
+Crawlee + Playwright + Camoufox
+https://apify.com/templates/js-crawlee-playwright-camoufox
 
-Camoufox项目中WebGL启用问题的技术解析
-https://blog.gitcode.com/69b4296135dfafc6dd552aca5c74f3c2.html
+如果你想尽快尝试一下，那么你可以检查这个分支：
+https://github.com/apify/crawlee-python/tree/camoufox
+如果你从那个分支运行这个playwright_crawler_example，那么它将使用 camoufox。
+https://github.com/apify/crawlee-python/issues/684
+
+Crawlee 快速开始
+https://bannermiao.github.io/crawlee-cn/docs/quick-start
+
+演示如何使用 PlaywrightCrawler 使用无头 Chromium 和 Playwright 递归抓取 Hacker 新闻网站。
+https://crawlee.dev/python/docs/examples/playwright-crawler
+具有阻止请求的剧作家爬虫
+https://crawlee.dev/python/docs/examples/playwright-crawler-with-block-requests
 
 使用 Crawlee 下载文件
 https://www.studywithgpt.com/zh-cn/tutorial/tf4ez7
@@ -60,7 +70,76 @@ https://blog.csdn.net/gitblog_00737/article/details/148490782
 Crawlee-Python项目：处理大规模爬取任务失败的最佳实践
 https://blog.gitcode.com/e5a6071685108d4ee83c61a9869f037b.html
 
+Crawlee项目在Windows开发与AWS部署中的浏览器版本不匹配问题解析
+https://blog.gitcode.com/c1bed13121206e68549c698e17b472ad.html
+
+crawlee自动网页抓取和浏览第一篇
+https://blog.csdn.net/qingyou2006/article/details/129611568
+
+[Crawlee项目中的Cookie设置URL解析问题解析](https://blog.gitcode.com/ae8f2c69c4e5e36e53870587687171bf.html)
+
+[如何为 Crawlee 设置代理](https://proxy-port.com/zh-hans/how-to/set-up-proxy-for-crawlee)
+
+[在Crawlee中添加数据到数据集](https://www.studywithgpt.com/zh-cn/tutorial/nabtq6)
+
+[深入Crawlee架构：从基础爬虫到高级功能](https://blog.csdn.net/gitblog_01129/article/details/148490790)
+
+# Crawlee-Python
+[Crawlee for Python 替代品](https://www.aibase.com/zh/tool/31600)
+
+Crawlee-Python项目：实现持续运行的网络爬虫循环
+https://blog.gitcode.com/9d65c6325880a3a0b8a279b4931ff7b7.html
+
+Crawlee-Python项目环境配置与安装指南
+https://blog.csdn.net/gitblog_00243/article/details/148490803
+
+Crawlee-Python项目中的PlaywrightCrawler指纹生成机制优化
+https://blog.gitcode.com/10612aaf4204d58a90bd66af1cfe6582.html
+
+Crawlee-Python v0.5.4版本发布：浏览器隐私模式支持与关键修复
+https://blog.gitcode.com/adcbc244245aebee2701cc15a6469daa.html
+
+Crawlee-Python爬虫模板系统：快速生成项目结构
+https://blog.csdn.net/gitblog_00643/article/details/151321665
+
+[Crawlee-Python CLI工具使用体验优化指南](https://blog.gitcode.com/1970157308c88f8dd28c03d1f5a6fcb7.html)
+
+[Crawlee-Python项目中的Configuration类优化实践](https://blog.gitcode.com/2a224d29f1395b550469c367ef43a998.html)
+
 # Camoufox
+[🦊 反检测浏览器](https://github.com/daijro/)
+
+一个功能强大的 CLI 工具，用于抓取网站和下载内容，包括 HTML、图像和视频。Web Grabber 提供多种浏览模式，包括正常请求、用于 JavaScript 渲染的 Selenium 和用于反机器人保护的 camoufox。
+完整的网站抓取：从网站下载所有 HTML 页面、图像和视频
+交互模式：选择保存路径补全内容的位置
+自动目录命名：自动创建以网站域命名的目录
+反机器人保护：使用伪装来避免被反机器人机制检测到
+Tor 集成：通过 Tor 网络路由流量以实现匿名
+Selenium 支持：为动态网站渲染 JavaScript -- Chrome/Chromium（用于 Selenium 和 camoufox 模式）
+多线程下载：高效并行下载资源
+有针对性的抓取：使用 CSS 选择器提取特定元素
+https://github.com/tadeasf/web-grabber
+
+为 Playwright 自动解决验证码。支持 Cloudflare Turnstile 和 Interstitial，以及具有基于点击或 API （2captcha） 解决的 reCAPTCHA V2 和 V3。专为与 Playwright、Patchright 和 Camoufox 轻松集成而设计。
+https://github.com/techinz/playwright-captcha
+
+[轻量级 camoufox-js 替代方案，仅导出“launchOptions”，旨在与 Playwright 一起使用](https://github.com/CyborgDragonFire/camoufox-launchOptions)
+
+[带有 Camoufox 的Playwright爬虫](https://crawlee.dev/python/docs/examples/playwright-crawler-with-camoufox)
+
+[CamouFox项目中连接与位置检测警告的优化实践](https://blog.gitcode.com/c837d7f96e21c24d5f063f01239945ae.html)
+
+[Camoufox项目中WebGL启用问题的技术解析](https://blog.gitcode.com/69b4296135dfafc6dd552aca5c74f3c2.html)
+
+[Crawlee-Python 整合 Camoufox 实现高级反检测爬虫](https://blog.gitcode.com/a054a2c1740ebb73be247308392bb1b2.html)
+
+无头 Firefox 抓取工具使用 Camoufox 进行隐身，使用 Playwright 进行浏览器自动化。
+配置为使用 Docker 在 Railway 上部署。
+https://github.com/railtools/camoufox-py
+
+Camoufox项目中的Firefox无头模式检测与绕过技术分析
+https://blog.gitcode.com/40322473eb7a9a735959e720baa1f448.html
+
 Camoufox项目中Playwright连接Firefox浏览器的正确方式解析
 https://blog.gitcode.com/d2b72de2b14b270e8cf29e28ac947492.html
 
@@ -73,3 +152,31 @@ https://blog.gitcode.com/d4366b3810f1949c585a9dec70ace575.html
 Camoufox项目中GeoIP功能异步调用问题的分析与修复
 https://blog.gitcode.com/9718016b09beba962b8742af33079490.html
 
+Camoufox项目中浏览器窗口尺寸控制的正确方法
+https://blog.gitcode.com/6d8dfae67915f5fb54ba450ca8151bd1.html
+
+CamouFox项目中的Canvas指纹防护技术演进
+https://blog.gitcode.com/43976cf7adc0204d8d263075bb7c3876.html
+
+Camoufox：隐匿的网络爬取利器
+https://blog.csdn.net/gitblog_00782/article/details/146532749
+
+Camoufox项目中元素边界框获取超时问题解析
+https://blog.gitcode.com/97b3156785a5a494e2c3604e3b84cadf.html
+
+在Docker容器中运行Camoufox反检测浏览器的技术实践
+https://blog.gitcode.com/f1124ebcb1f9018d0c3bb082506c5bfb.html
+
+# Cloudflare
+2025年如何绕过Cloudflare反爬虫挑战 Cloudflare是爬虫的克星
+https://www.capsolver.com/zh/blog/All/bypass-cloudflare-challenge-2025
+
+如何在 2025 年使用 Playwright 绕过 Cloudflare
+方法 1：使用 Stealth 插件
+方法 2：使用代理
+方法 3：解决验证码
+方法 4：使用 ZenRows 绕过高级 Cloudflare 保护
+https://www.zenrows.com/blog/playwright-cloudflare-bypass
+
+绕过 Cloudflare：最佳实践
+https://github.com/bright-cn/bypass-cloudflare
