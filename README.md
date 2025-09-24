@@ -57,6 +57,9 @@ https://bannermiao.github.io/crawlee-cn/docs/introduction/crawling
 深入解析Apify Crawlee-Python中的Playwright爬虫浏览器配置
 https://blog.csdn.net/gitblog_00737/article/details/148490782
 
+Crawlee-Python项目：处理大规模爬取任务失败的最佳实践
+https://blog.gitcode.com/e5a6071685108d4ee83c61a9869f037b.html
+
 # Camoufox
 Camoufox项目中Playwright连接Firefox浏览器的正确方式解析
 https://blog.gitcode.com/d2b72de2b14b270e8cf29e28ac947492.html
